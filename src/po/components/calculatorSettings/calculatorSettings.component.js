@@ -33,7 +33,7 @@ get regularBtn() { return $$('.oLWDHd')[0]}
 
     get machineTypeOptions() { return $$('.VfPpkd-O1htCb-OWXEXe-ztc6md')[3]}
 
-    get machineTypeRequired() {return $$('.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-aSi1db-MCEKJb')[18]}
+    get machineTypeRequired() {return $$('.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-aSi1db-MCEKJb')[19]}
 
     get gpusBtn() { return $$('.eBlXUe-scr2fc-OWXEXe-uqeOfd')[4]}
     

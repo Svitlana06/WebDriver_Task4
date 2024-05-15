@@ -232,8 +232,8 @@ exports.config = {
     afterTest: async (test, context, result) => {
         // take a screenshot anytime a test fails and throws an error
         if (result.error) {
-          const mistakeDate= new Date().toString().replace(':',"-");
-          const filename =  test.title + " " + mistakeDate + '.png';
+          const mistakeDate = new Date().toISOString().replace(/:/g, "-");
+          const filename = `${test.title} ${mistakeDate}.png`;
           const dirPath = './screenshots/';
       
           if (!existsSync(dirPath)) {
